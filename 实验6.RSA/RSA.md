@@ -133,11 +133,11 @@ int encrypt(int a, int b, int c){
 
 输入两个素数p=47，q=59，则n=p\*q，再输入设置的公钥e=63，满足了1<e<φ(n)，且e与(p - 1)*(q - 1)互质。计算出的私钥d为847，进行加密后密文c=m^e (mod n)为1692，密文解密后的结果m = c^d (mod n)为188.
 
-![image-20230525004344410](C:\Users\Lulu\AppData\Roaming\Typora\typora-user-images\image-20230525004344410.png)
+![img](https://github.com/AlanAluuu/cryptographyPro/blob/main/screenshots/6.1.png)
 
 利用给出的小工具去判断加密解密流程是否正确，注意这里公钥63的格式应该输入成十六进制的3f，右侧的进制选择10，明文选项选择大数。通过使用工具验证，可知RSA加解密流程正确。
 
-![image-20230525004727567](C:\Users\Lulu\AppData\Roaming\Typora\typora-user-images\image-20230525004727567.png)
+![img](https://github.com/AlanAluuu/cryptographyPro/blob/main/screenshots/6.2.png)
 
 ##### 五、实验结果分析及回答问题（或测试环境及测试结果）
 
